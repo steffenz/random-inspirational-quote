@@ -3,9 +3,9 @@
   "version": "0.0.2",
   "description": "gives random quote from json file",
   "main": "index.js",
-  "repository": "https://github.com/steffenz/random-inspirational-quote",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steffenz/random-inspirational-quote.git"
   },
   "scripts": {
     "test": "jest",
