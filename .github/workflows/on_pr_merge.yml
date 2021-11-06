@@ -4,7 +4,7 @@ on:
   pull_request:
     types:
     - closed
-    
+
 jobs:
   bump-package-version:
     if: github.event.pull_request.merged == true
@@ -14,6 +14,6 @@ jobs:
 
       # Consider using commit hash or forking to avoid changes/security issues .. 
       - name: Bump version
-        uses:  'phips28/gh-action-bump-version@master'
+        uses:  'steffenz/gh-action-bump-version@fix/branch-close-null-pointer'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
