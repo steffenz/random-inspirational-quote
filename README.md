@@ -39,3 +39,6 @@ Reading [The Power of Now](https://www.amazon.com/Power-Now-Guide-Spiritual-Enli
 
 ### Porter Robinson
 Artist whose work and general wholesomeness soothes, inspires and reminds me to contribute to this world something that will outlast me, and never to give up. Quote was fetched form the video description of [Look at the Sky](https://www.youtube.com/watch?v=TJBh_hj6DzE) on YouTube. Be sure to also check out his [website](https://porterrobinson.com/) which features an very interesting experience (both artistic and techincally). Try opening the devtools when you've entered a room!
+
+### Albert Ellis
+Psychologist and psychotherapist who founded Rational Emotive Behavior Therapy (REBT) which has influenced the probably more recognized Cognitive Behavioral Therapy (CBT) widely used today. I was introduced to Ellis through his book [Overcoming Procastination](https://www.amazon.com/Overcoming-Procrastination-Rationally-Inevitable-Hassles/dp/0451159314) which was recommended to me. This was actually a rather fun read, and the author himself also seemed like quite a character. A key take-away point is that at heart of procastination is usually perfectionism.
