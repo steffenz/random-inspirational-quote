@@ -1,0 +1,22 @@
+name: Build and deploy application to Github Packages Maven repo
+
+on:
+  pull_request:
+    types:
+    - closed
+
+permissions:
+  repository: write
+
+jobs:
+  bump-package-version:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      # Consider using commit hash or forking to avoid changes/security issues .. 
+      - name: Bump version
+        uses:  'phips28/gh-action-bump-version@master'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
