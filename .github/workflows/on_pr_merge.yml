@@ -17,3 +17,5 @@ jobs:
         uses:  'steffenz/gh-action-bump-version@fix/branch-close-null-pointer'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          target-branch: 'master'
