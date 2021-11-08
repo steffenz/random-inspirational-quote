@@ -1,4 +1,4 @@
-import { getRandomQuote } from './../';
+import { getRandomQuote, getAllQuoteIds, getAllQuotes } from './../';
 import quotes from './../quotes.json';
 
 describe('test getRandomQuote', () => {
@@ -17,5 +17,22 @@ describe('test getRandomQuote', () => {
 
         expect(quote.id === lastIdInArray).toBe(true);
     })
-    
+
 });
+
+
+describe('test getAllQuoteIds', () => {
+    it('getAllQuoteIds should returns the same as in json file', () => {
+        const allQuoteIds = getAllQuoteIds();
+        const manualQuoteIds = quotes.map(q => q.id);
+        expect(allQuoteIds === manualQuoteIds);
+    })
+})
+
+
+describe('test getAllQuotes', () => {
+    it('getAllQuotes should return all quotes in json file', () => {
+        const allQuotes = getAllQuotes();
+        expect(allQuotes == quotes).toBe(true);
+    })
+})
