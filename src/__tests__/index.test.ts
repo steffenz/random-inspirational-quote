@@ -1,5 +1,5 @@
-import { getRandomQuote } from './';
-import quotes from './quotes.json';
+import { getRandomQuote } from './../';
+import quotes from './../quotes.json';
 
 describe('test getRandomQuote', () => {
 
